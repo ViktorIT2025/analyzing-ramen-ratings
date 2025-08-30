@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv("ramen-ratings.csv")
+df = pd.read_csv("data/ramen-ratings.csv")
 
 print("Rows, Columns:", df.shape)
 print("\nColumns:", list(df.columns))
